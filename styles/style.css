@@ -123,3 +123,19 @@ main {
 .info-title {
     margin-bottom: 15px;
 }
+
+/* what i do section */
+#what-i-do-text {
+    padding: 0 150px 30px;
+}
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    
+}
+.skill-title {
+    margin: 15px 0;
+}
