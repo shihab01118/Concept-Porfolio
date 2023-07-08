@@ -104,6 +104,9 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section {
+    margin-top: 130px;
+}
 
 /* about section */
 .about {
@@ -134,8 +137,45 @@ main {
 }
 .skill {
     padding: 30px;
-    
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: white;
 }
 .skill-title {
     margin: 15px 0;
+}
+.skill-text {
+    color: #757575;
+}
+
+/* resume section */
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+.resume-column hr {
+    margin: 30px 0;
+}
+.column-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.column-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.column-item-subtitle {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.column-item-subtitle, .column-item-text {
+    color: #474747;
+}
+.download-cv {
+    margin-top: 50px;
+    text-align: center;
 }
