@@ -302,5 +302,12 @@ textarea {
         width: 75%;
     }
 
-    
+    /* about section */
+    .about {
+        margin: 75px 0;
+        padding: 50px;
+    }
+    .about-info-container {
+        justify-content: space-between;
+    }
 }
