@@ -282,7 +282,16 @@ textarea {
     }
     .skill {
         padding: 15px;
+    }
+    .skill-logo {
+        display: block;
+        margin: auto;
+    }
+    .skill-title {
         text-align: center;
+    }
+    .skill-text {
+        text-align: justify;
     }
 }
 
@@ -327,5 +336,32 @@ textarea {
     }
     .about-info-container {
         justify-content: space-between;
+    }
+
+    /* what i do section */
+    .what-i-do {
+        margin-top: 75px;
+    }
+    #what-i-do-text {
+        padding: 0 75px;
+    }
+    .skills-container {
+        flex-wrap: wrap;
+        margin: 30px 75px 0;
+        justify-content: space-between;
+    }
+    .skill {
+        width: calc((100% - 24px)/2);
+        padding: 20px;
+    }
+    .skill-logo {
+        display: block;
+        margin: auto;
+    }
+    .skill-title {
+        text-align: center;
+    }
+    .skill-text {
+        text-align: justify;
     }
 }
