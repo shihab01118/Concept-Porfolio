@@ -366,6 +366,28 @@ textarea {
     .download-cv {
         margin-top: 20px;
     }
+
+    /* footer section */
+    .footer {
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 30px;
+        gap: 30px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .social-links {
+        margin-top: 15px;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea {
+        margin-bottom: 15px;
+        padding: 10px 30px;
+    }
+    .contact input[type="submit"] {
+        display: block;
+        margin: auto;
+    }
 }
 
 /* medium devices */
