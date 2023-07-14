@@ -266,6 +266,24 @@ textarea {
     .info-text {
         margin-bottom: 15px;
     }
+
+    /* what i do section */
+    .what-i-do {
+        margin-top: 50px;
+        padding: 20px 20px 0;
+    }
+    #what-i-do-text {
+        padding: 0;
+    }
+    .skills-container {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .skill {
+        padding: 15px;
+        text-align: center;
+    }
 }
 
 /* medium devices */
