@@ -249,6 +249,23 @@ textarea {
     .btn {
         margin-bottom: 15px;
     }
+    /* about section */
+    .about {
+        margin: 50px 0;
+        padding: 20px;
+    }
+    .section-text {
+        font-size: 16px;
+    }
+    .about-info-container {
+        flex-direction: column;
+    }
+    .info-title {
+        margin-bottom: 5px;
+    }
+    .info-text {
+        margin-bottom: 15px;
+    }
 }
 
 /* medium devices */
@@ -284,4 +301,6 @@ textarea {
     .profile-pic {
         width: 75%;
     }
+
+    
 }
