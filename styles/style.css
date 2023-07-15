@@ -492,4 +492,15 @@ textarea {
     .download-cv {
         margin-top: 30px;
     }
+
+    /* footer section */
+    .footer {
+        margin-top: 75px;
+        padding: 50px;
+        gap: 50px;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea {
+        margin-bottom: 20px;
+        padding: 15px 30px;
+    }
 }
